@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: snow;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+.title {
+    font-family: cursive;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.9s ease;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+span:before {
+    content: "I am Ramish Hassan";
+    animation: anime 9s infinite;
+}
+
+@keyframes anime {
+    0% {
+        content: "I am a Programmer";
+    }
+    20% {
+        content: "I am a Coder";
+    }
+    40% {
+        content: "I am a Youtuber";
+    }
+}
